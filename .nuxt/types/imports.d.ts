@@ -93,7 +93,6 @@ declare global {
   const reloadNuxtApp: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/chunk').reloadNuxtApp
   const requestIdleCallback: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/compat/idle-callback').requestIdleCallback
   const resolveComponent: typeof import('vue').resolveComponent
-  const setInterval: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/compat/interval').setInterval
   const setPageLayout: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/router').setPageLayout
   const setResponseStatus: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/ssr').setResponseStatus
   const setSources: typeof import('../../app/composables/useSourcesList').setSources
@@ -147,6 +146,7 @@ declare global {
   const useNotifications: typeof import('../../app/composables/useNotifications').useNotifications
   const useNuxtApp: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/nuxt').useNuxtApp
   const useNuxtData: typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/asyncData').useNuxtData
+  const useNuxtDevTools: typeof import('../../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7.3.0_vue@3.5.26/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools').useNuxtDevTools
   const usePageMetadata: typeof import('../../app/composables/usePageMetadata').usePageMetadata
   const usePageTitle: typeof import('../../app/composables/usePageMetadata').usePageTitle
   const usePartyStore: typeof import('../../app/composables/useParty').usePartyStore
@@ -344,7 +344,6 @@ declare module 'vue' {
     readonly reloadNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/chunk')['reloadNuxtApp']>
     readonly requestIdleCallback: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/compat/idle-callback')['requestIdleCallback']>
     readonly resolveComponent: UnwrapRef<typeof import('vue')['resolveComponent']>
-    readonly setInterval: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/compat/interval')['setInterval']>
     readonly setPageLayout: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/router')['setPageLayout']>
     readonly setResponseStatus: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/ssr')['setResponseStatus']>
     readonly setSources: UnwrapRef<typeof import('../../app/composables/useSourcesList')['setSources']>
@@ -398,6 +397,7 @@ declare module 'vue' {
     readonly useNotifications: UnwrapRef<typeof import('../../app/composables/useNotifications')['useNotifications']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.20.2_@types+node@20.19.27_@vue+compiler-sfc@3.5.26_eslint@8.57.1_sass@1.97.1_typescrip_u43ajdg75if4vtvsw76q2vx46u/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']>
+    readonly useNuxtDevTools: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7.3.0_vue@3.5.26/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']>
     readonly usePageMetadata: UnwrapRef<typeof import('../../app/composables/usePageMetadata')['usePageMetadata']>
     readonly usePageTitle: UnwrapRef<typeof import('../../app/composables/usePageMetadata')['usePageTitle']>
     readonly usePartyStore: UnwrapRef<typeof import('../../app/composables/useParty')['usePartyStore']>
